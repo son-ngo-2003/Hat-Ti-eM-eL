@@ -10,30 +10,93 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.0-web/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="app">
         <header class="header">
-            <nav class="navbar">
-                <ul class="navbar-list">
-                    <li class="navbar-list-item"></li>
-                    <li class="navbar-list-item"></li>
-                    <li class="navbar-list-item"></li>
-                    <li class="navbar-list-item"></li>
-                    <li class="navbar-list-item"></li>
-                    <li class="navbar-list-item"></li>
-                </ul>
+            <div class="grid ">
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-list-item">
+                            <a href="#logo" class="navbar-list-item-link navbar-list-item-link--home">
+                                <i class="fa-sharp fa-solid fa-house-chimney icon icon--home"></i>
+                                Logo
+                            </a>
+                        </li>
+    
+                        <li class="navbar-list-item">
+                            <a href="#team" class="navbar-list-item-link">Team</a>
+                        </li>
+    
+                        <li class="navbar-list-item">
+                            <a href="#work" class="navbar-list-item-link">Work</a>
+                        </li>
+    
+                        <li class="navbar-list-item">
+                            <a href="#price" class="navbar-list-item-link">Price</a>
+                        </li>
+    
+                        <li class="navbar-list-item">
+                            <a href="#contact" class="navbar-list-item-link">Contact</a>
+                        </li>
+    
+                        <li class="navbar-list-item">
+                            <div class="navbar-list-item-link dropdown">
+                                Dropdown
+                                <i class="fa-solid fa-caret-down icon"></i>
+                                <ul class="dropdown-list">
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-item-link">Link 1</a>
+                                    </li>
 
-                <ul class="navbar-list">
-                    <li class="navbar-list-item"></li>
-                </ul>
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-item-link">Link 2</a>
+                                    </li>
 
-            </nav>
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-item-link">Link 3</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-item-link">Link 4</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+    
+                    </ul>
+    
+                    <div class="navbar-search">
+                        <div class="navbar-search-item">
+                            <input type="text" id="search-input" class="navbar-search-item--input" placeholder="Search">
+                        </div>
+                        <div id= "search-button" class="navbar-search-item navbar-search-item--button">
+                            <i class="fa-solid fa-magnifying-glass icon"></i>
+                        </div>
+                    </div>
+                </nav> 
+            </div>
         </header>
 
         <div class="container">
+            <div id="logo" class="cover-photo">
+                <div class="cover-photo--img"></div>
+                <div class="cover-photo--button">LEARN W3.CSS</div>
+            </div>
+            <div id="team"> 
 
+            </div>
+            <div id="work">
+
+            </div>
+            <div id="price">
+
+            </div>
+            <div id="contact">
+
+            </div>
         </div>
 
         <footer class="footer">
