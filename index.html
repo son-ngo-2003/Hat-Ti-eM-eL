@@ -6,33 +6,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <div id="text1">
-            <h1 style="font-family: Arial, sans-serif; font-size: 30px; text-align: center; font-weight: 400;">OUR TEAM</h1>
-            <h2 style="font-family: Verdana, sans-serif; font-size: 15px; text-align: center; font-weight: 400;">Meet the team - our office rats:</h2>
-        </div>
-        <div id="all_photos">
-            <div class="photo">
-                <img class="image" src="https://www.w3schools.com/w3images/avatar.jpg" alt="">
-                <h1 class="title1">Johnny Walker</h1>
-                <h2 class="text2">Web Designer</h2>
+    <div id="app">
+        <header class="header">
+            <div class="grid ">
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-list-item">
+                            <a href="#logo" class="navbar-list-item-link navbar-list-item-link--home">
+                                <i class="fa-sharp fa-solid fa-house-chimney icon icon--home"></i>
+                                Logo
+                            </a>
+                        </li>
+    
+                        <li class="navbar-list-item">
+                            <a href="#team" class="navbar-list-item-link">Team</a>
+                        </li>
+    
+                        <li class="navbar-list-item">
+                            <a href="#work" class="navbar-list-item-link">Work</a>
+                        </li>
+    
+                        <li class="navbar-list-item">
+                            <a href="#price" class="navbar-list-item-link">Price</a>
+                        </li>
+    
+                        <li class="navbar-list-item">
+                            <a href="#contact" class="navbar-list-item-link">Contact</a>
+                        </li>
+    
+                        <li class="navbar-list-item">
+                            <div class="navbar-list-item-link dropdown">
+                                Dropdown
+                                <i class="fa-solid fa-caret-down icon"></i>
+                                <ul class="dropdown-list">
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-item-link">Link 1</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-item-link">Link 2</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-item-link">Link 3</a>
+                                    </li>
+
+                                    <li class="dropdown-item">
+                                        <a href="" class="dropdown-item-link">Link 4</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+    
+                    </ul>
+    
+                    <div class="navbar-search">
+                        <div class="navbar-search-item">
+                            <input type="text" id="search-input" class="navbar-search-item--input" placeholder="Search">
+                        </div>
+                        <div id= "search-button" class="navbar-search-item navbar-search-item--button">
+                            <i class="fa-solid fa-magnifying-glass icon"></i>
+                        </div>
+                    </div>
+                </nav> 
             </div>
-            <div class="photo">
-                <img class="image" src="https://www.w3schools.com/w3images/avatar.jpg" alt="">
-                <h1 class="title1">Rebecca Flex</h1>
-                <h2 class="text2">Support</h2>
+        </header>
+
+        <div class="container">
+            <div id="logo" class="cover-photo">
+                <div class="cover-photo--img"></div>
+                <div class="cover-photo--button">LEARN W3.CSS</div>
             </div>
-            <div class="photo">
-                <img class="image" src="https://www.w3schools.com/w3images/avatar.jpg" alt="">
-                <h1 class="title1">Jan Ringo</h1>
-                <h2 class="text2">Boss man</h2>
+            <div id="team"> 
+              <div>
+                <div id="text1">
+                    <h1 style="font-family: Arial, sans-serif; font-size: 30px; text-align: center; font-weight: 400;">OUR TEAM</h1>
+                    <h2 style="font-family: Verdana, sans-serif; font-size: 15px; text-align: center; font-weight: 400;">Meet the team - our office rats:</h2>
+                </div>
+                <div id="all_photos">
+                    <div class="photo">
+                        <img class="image" src="https://www.w3schools.com/w3images/avatar.jpg" alt="">
+                        <h1 class="title1">Johnny Walker</h1>
+                        <h2 class="text2">Web Designer</h2>
+                    </div>
+                    <div class="photo">
+                        <img class="image" src="https://www.w3schools.com/w3images/avatar.jpg" alt="">
+                        <h1 class="title1">Rebecca Flex</h1>
+                        <h2 class="text2">Support</h2>
+                    </div>
+                    <div class="photo">
+                        <img class="image" src="https://www.w3schools.com/w3images/avatar.jpg" alt="">
+                        <h1 class="title1">Jan Ringo</h1>
+                        <h2 class="text2">Boss man</h2>
+                    </div>
+                    <div class="photo">
+                        <img class="image" src="https://www.w3schools.com/w3images/avatar.jpg" alt="">
+                        <h1 class="title1">Kai Ringo</h1>
+                        <h2 class="text2">Fixer</h2>
+              
+                   </div>
+            <div id="work">
+
             </div>
-            <div class="photo">
-                <img class="image" src="https://www.w3schools.com/w3images/avatar.jpg" alt="">
-                <h1 class="title1">Kai Ringo</h1>
-                <h2 class="text2">Fixer</h2>
+            <div id="price">
+
+            </div>
+            <div id="contact">
+
             </div>
         </div>
     </div>
