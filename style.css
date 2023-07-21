@@ -1,0 +1,55 @@
+    * {
+        box-sizing: border-box;
+      }
+      .content-container {
+        background-color: #333333;
+        color: white;
+        font-family: Verdana, sans-serif;
+        position: relative;
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 64px 8px 64px 8px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: -1rem;
+        flex-flow: row wrap;
+      }
+      #paragraph {
+        width: 197.156px;
+        height: 535px;
+        padding: 0 8px;
+      }
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+      .content {
+        flex: 1 0;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+      }
+      #description {
+        padding-left: 10px;
+      }
+      #card {
+        background-color: white;
+        color: black;
+      }
+      .more {
+        background-color: #009688;
+        color: #fff;
+        font-size: 24px;
+        position: absolute;
+        bottom: -28px;
+        right: 24px;
+        border-radius: 50%;
+        width: 50px;
+        height:50px;
+      }
+      #button {
+        margin:auto;
+        width:60%;
+        height:50px;
+        text-align: center;
+        margin-top: 5px;
+      }
